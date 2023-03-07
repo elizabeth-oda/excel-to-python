@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "excel-to-python"
+version = "0.1.0"
+description = ""
+authors = ["Elizabeth Oda <efeldeverd@gmail.com>"]
+readme = "README.md"
+packages = [{include = "excel_to_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+matplotlib = "^3.7.1"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
